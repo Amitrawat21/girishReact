@@ -1,0 +1,77 @@
+.Descripion {
+    background-color: rgb(231, 231, 231);
+    padding: 40px; /* Add padding to create space around content */
+  }
+  
+  .Description-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+  }
+  
+  .Description-wrapper img {
+    width: 100%; /* Make image responsive */
+    max-width: 1200px; /* Set a maximum width to prevent it from getting too large */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: add rounded corners */
+  }
+  .preps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(104, 104, 148);
+  }
+  .preps h1{
+    
+  }
+  
+  .Description-wrapper h1 {
+    margin: 0; /* Remove default margin for headings */
+    font-size: 2em; /* Adjust font size as needed */
+    text-align: center; /* Center align text */
+  }
+  .all-suggestion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    
+  }
+  
+  .suggestions {
+    background-color: white;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    gap: 20px;
+    min-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+  }
+  
+  .suggestions-heading {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .suggestions-heading h2 {
+    margin: 0; /* Remove default margin */
+  }
+  
+  .suggestions p {
+    line-height: 1.6; /* Improve readability */
+    font-size: 20px;
+    color: rgb(124, 147, 170);
+    
+
+
+  }
+
+  
