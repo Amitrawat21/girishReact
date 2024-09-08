@@ -11,7 +11,7 @@ const Navbar = ({ isVisible }) => {
     
     <div className="navbar-wrapper">
           <div className="top-left-wrapper">
-            <h2>Bloomberg</h2>
+            <h2>Nauka</h2>
             <h2>
               Exam Prep  <span>CFA program</span>
             </h2>
@@ -19,22 +19,25 @@ const Navbar = ({ isVisible }) => {
           <div className="top-right-wrapper">
             <div className='multiple-tabs'>
             <div className="tabs">
-              <GridViewIcon style={{  color : ' #d9d9d9'}} />
+              <GridViewIcon style={{  color : "black"}} />
               <h4>other courses</h4>
             </div>
             <div className="tabs">
-              <LocalLibraryIcon style={{ color : ' #d9d9d9'}}  />
+              <LocalLibraryIcon style={{  color : "black"}} />
               <h4>blog</h4>
             </div>
             <div className="tabs">
-              <HelpIcon  style={{color : ' #d9d9d9'}}  />
+              <HelpIcon style={{  color : "black"}} />
               <h4>support</h4>
             </div>
             <div className="tabs">
-              <LoginIcon style={{ color : ' #d9d9d9'}}  />
+              <LoginIcon style={{  color : "black"}} />
               <h4>login</h4>
             </div>
             </div>
+            </div>
+
+            <div className='top-leftt-wrapper'>
             <div className="options">
             <select>
               <option className="amit" value="days">level l august 2024</option>
@@ -51,11 +54,13 @@ const Navbar = ({ isVisible }) => {
 
             <button>start free trail</button>
           </div>
+            </div>
+           
 
            
-          </div>
-        </div>
-
+        
+        
+            </div>
 
     </div>
   

@@ -3,35 +3,41 @@ import GridViewIcon from "@mui/icons-material/GridView";
 import LocalLibraryIcon from "@mui/icons-material/LocalLibrary";
 import HelpIcon from "@mui/icons-material/Help";
 import LoginIcon from "@mui/icons-material/Login";
+import { Link } from "react-router-dom";
 import "./Intro.css";
 const Intro = ({ className }) => {
   return (
     <div className={`Intro-Container ${className}`}>
       <div className="Intro-Wrapper">
         <div className="top">
-          <div className="top-left">
-            <h2>Bloomberg</h2>
+          <div className="top-leftt">
+            <h2>Nauka</h2>
             <h2>
               Exam Prep <span>|</span> <span>CFA program</span>
             </h2>
           </div>
           <div className="top-right">
             <div className="tabs">
-              <GridViewIcon style={{  color : ' #d9d9d9'}} />
+              <GridViewIcon style={{  color : 'black'}} />
               <h4>other courses</h4>
             </div>
             <div className="tabs">
-              <LocalLibraryIcon style={{ color : ' #d9d9d9'}}  />
+              <LocalLibraryIcon style={{ color : 'black'}}  />
               <h4>blog</h4>
             </div>
             <div className="tabs">
-              <HelpIcon  style={{color : ' #d9d9d9'}}  />
+              <HelpIcon  style={{color : 'black'}}  />
               <h4>support</h4>
             </div>
-            <div className="tabs">
-              <LoginIcon style={{ color : ' #d9d9d9'}}  />
+         
+              <Link to= "/signin"  style={{ textDecoration: 'none' }}>
+              <div className="tabs">
+              <LoginIcon style={{color : 'black'}}  />
               <h4>login</h4>
-            </div>
+              </div>
+              </Link>
+          
+            
           </div>
         </div>
 

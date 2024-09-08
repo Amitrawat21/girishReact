@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import TutorcCarousel from './Component/TutorsCarousel/TutorcCarousel';
-
+import Card2 from './Component/Card2/Card2';
+import LoginForm from './Component/LoginComponent/LoginForm.tsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <App/>
   </React.StrictMode>
 );
 

@@ -6,7 +6,9 @@ import Description from '../../Component/Description1/Description';
 import Footer from '../../Component/Footer/Footer';
 import Offer from '../../Component/Offer/Offer';
 import Description2 from '../../Component/Description2/Description2';
-
+import Description3 from '../../Component/Description3/Description3';
+import Review from '../../Component/Review/Review';
+import Certification from '../../Component/Cerification/Certification';
 const Home = () => {
   const [showNavbar, setShowNavbar] = useState(false);
 
@@ -42,6 +44,9 @@ const Home = () => {
       <Navbar isVisible={showNavbar} />
       <Description/>
       <Description2/>
+      <Review/>
+      <Description3/>
+      <Certification/>
       <Offer/>
       <Footer/>
 
